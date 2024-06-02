@@ -1,24 +1,50 @@
-# README
+# Blog Posting App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple Blog Posting application built with Ruby on Rails.
 
-Things you may want to cover:
+## Ruby version
 
-* Ruby version
+This application is built using Ruby version  3.1.2p20
 
-* System dependencies
+## System dependencies
 
-* Configuration
+Make sure you have the following dependencies installed:
 
-* Database creation
+- Ruby (version  3.1.2)
+- Ruby on Rails (version 7.1.3.3)
+- PostgreSQL (version 14.11)
 
-* Database initialization
+## Configuration
 
-* How to run the test suite
+After cloning the repository, make sure to run the following commands to set up the application:
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+bundle install
+rails db:create
+rails db:migrate
+```
 
-* Deployment instructions
+## Database Creation
 
-* ...
+To create the database, run : 
+
+```bash
+rails db:create
+```
+
+## Database initialization
+
+To initialize the database with sample data, you can run seed data:
+
+```bash
+rails db:seed
+```
+
+To run the test suite, use the following command:
+
+```bash
+rails test
+```
+
+
+
